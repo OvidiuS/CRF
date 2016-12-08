@@ -3,27 +3,14 @@
 <body>
 <?php include("./includes/header.inc"); ?>
 					
-					<div class="slideshowWrapper">
-    					<div class="slideshow flexslider">
-        					<ul  class="slides">
-        						
-        						<?php         
-    								if (count($page->homepage_main_slideshow)) {         
-    								  foreach($page->homepage_main_slideshow as $image) {             
-    								            
-    								    echo '<li><img class="photo" src="'.$image->getCrop('slideshow-size-crop')->url.'" alt="{$image->description}" /></li>';
-    								   }     
-    								}else{
-    									echo '<li><img class="photo" src="'.$config->urls->templates.'images/homepage/900x400.gif" alt="placeholder" /></li>';
-    								}     
-    							?> 
-            					
-							</ul>
-    					</div>
-    					<!--end slideshow--> 
-    					<div id="pin"></div>
+					<div class="hpVideoBg" style="padding:0 10px;position:relative;">
+						<video autoplay="autoplay" loop="loop" style="background-image: url(&quot;https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/5829e46de899c58c39beee22_ucw1-homepage-video-poster-00001.jpg&quot;); width:100%">
+							<source src="https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/5829e46de899c58c39beee22_ucw1-homepage-video-transcode.webm" data-wf-ignore="">
+							<source src="https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/5829e46de899c58c39beee22_ucw1-homepage-video-transcode.mp4" data-wf-ignore="">
+						</video>
+						<a href="<?= $pages->get(1)->main_video ?>&autoplay=1&rel=0" class="fullVideoButton mainVideo">See Full Video</a>
 					</div>
-					<!--end slideshowWrapper-->
+					<!-- /.hpVideoBg -->
 					
 					
 					<div class="mainContentWrapper">

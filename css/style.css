@@ -349,7 +349,6 @@ button {
 	position: absolute;
 }
 #oars {
-	
 	width: 200px;
 	margin-left: -115px;
 	left: 0;
@@ -399,6 +398,35 @@ button {
 	background: url(../images/rightnavBanner.png) no-repeat left top;
 }
 /*Content*/
+
+// HOMEPAGE VIDEO BG
+.hpVideoBg {
+ 	padding:0 10px;
+ 	position:relative;
+ }
+.hpVideoBg video {
+	width: width:100%;
+	background-image: url('https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/5829e46de899c58c39beee22_ucw1-homepage-video-poster-00001.jpg');
+}
+.fullVideoButton {
+	position: absolute;
+	width: 232px;
+  	height: 55px;
+	margin-left: -116px;
+	padding-top: 19px;
+	margin-top:-23px;
+	top:50%;
+	left: 50%;
+	background: url('http://rf.dev/site/templates/images/rightheaderbanner.png') no-repeat center center;
+	color: #49210b;
+	font-size: 18px;
+	font-family: 'armychalkregular',Oswald,sans-serif;
+	font-size: 31px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+}
+
 /*Slideshow*/
 
 .slideshowWrapper .flex-control-nav {display:none;}
