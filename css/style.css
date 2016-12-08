@@ -156,7 +156,8 @@ button {
 
 .bodyWrapper {
 	overflow: hidden;
-	background: #90dcfe url(../images/sky.jpg) repeat left top;
+	background: #90dcfe url(../images/page-background.jpg) no-repeat 0 -200px;
+	background-attachment: fixed;
 	position: relative;
 }
 .containerLeftWrapper, .containerRightWrapper, .footer, .ball {
