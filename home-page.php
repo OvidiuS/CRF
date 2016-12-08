@@ -29,35 +29,7 @@
 						<h2 style="margin: 0;">News and Events</h2>
 						<div class="bottomContentWrapper">
 							
-							<div class="bottomContentLeft">
-							<a href="<?= $pages->get(1053)->url ?>">
-								<!-- START RSS MODULE -->
-								<img src="<?php echo $config->urls->templates?>images/blog64.png" alt="blog"/></a>
-								<!-- START NEWS MODULE -->
-								<h3>Latest <br />Blog Posts</h3>
-								<ul>
-									<?php 
-										$latest_blog_posts = $pages->find("template=blog-post, sort=-date, limit=2");
-										foreach ($latest_blog_posts as $blog_post) {
-											if(empty($blog_post->summary)) {
-												// summary is blank so we auto-generate a summary from the body
-												$summary = strip_tags(substr($blog_post->body, 0, 150));
-												$blog_post->summary = substr($summary, 0, strrpos($summary, ' ')). "...";
-											}
-	
-											echo "<li><span>{$blog_post->date}</span>
-												<a class='itemTitle' href='{$blog_post->url}'>{$blog_post->title}:</a>
-												
-												<span>{$blog_post->summary}</span>
-											<div class='link'> <a href='{$blog_post->url}'>read more...</a> </div>
-											</li>";
-										}
-									?>
-								</ul>
-								<!-- END NEWS MODULE -->
-							</div>
-							<!--end bottomContentLeft-->
-							
+														
 							<div class="bottomContentCenter"> <a href="https://www.facebook.com/pages/Camps-Firebird-Roosevelt/270670676412">
 								<!-- START RSS MODULE -->
 								<img src="<?php echo $config->urls->templates?>images/facebook64.png" alt="facebook"/></a>
