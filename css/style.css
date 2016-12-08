@@ -55,7 +55,7 @@ h1, h2, h3, h4 {
 	font-family: 'armychalkregular', Oswald, sans-serif;
 	font-weight: normal;
 }
-.lefttopHeader, .lefttopHeader, .righttopHeader, .rightHeader p, .countdown {
+.lefttopHeader, .lefttopHeader, .righttopHeader, .rightHeader p {
 	/* font-family: Galindo, sans-serif; */
 	font-family: 'armychalkregular', Oswald, sans-serif;
 }
@@ -465,26 +465,13 @@ button {
     text-indent:-9999em;
 	overflow: hidden;
 }
-.miniSlideshowWrapper .flex-direction-nav a {
-	width: 34px;
-	margin-top: -25px;
-}
 .flex-direction-nav .flex-prev {
 	left: 10px;
 	background: url(../images/leftArrow.png) no-repeat top left;
 }
-.miniSlideshowWrapper .flex-direction-nav .flex-prev {
-	left: 4px;
-	background: url(../images/minislideLArrow.png) no-repeat top left;
-	z-index: 100;
-}
 .flex-direction-nav .flex-next {
 	right: 10px;
 	background: url(../images/rightArrow.png) no-repeat top right;
-}
-.miniSlideshowWrapper .flex-direction-nav .flex-next {
-	right: 5px;
-	background: url(../images/minislideRArrow.png) no-repeat top left;
 }
 #leftArrowslideshow:hover {
 	background-position: bottom left;
@@ -543,167 +530,15 @@ button {
 	right: 36%;
 }
 /*Main Content*/
-.homeRightColumn {
-	text-align: left;
-	font-size: 17px;
-	background: url(../images/headerbackground.jpg);
-	border-radius: 9px;
-	box-shadow: -2px 4px 5px #3C271D;
-	color: #fff;
-	padding: 1px 15px;
-	max-width: 303px;
-	margin: 0 auto 15px;
-	font-family: Oswald,sans-serif;
-	font-family: 'armychalkregular';
-	/* text-shadow: 1px 1px 2px #3C271D; */
-}
-.homeRightColumn p {
-	line-height: 1.2em;
 
-}
-.homeRightColumn strong {
-	color: #F4DFAB;
-	font-weight: normal;
-}
-.homeRightColumn a {
-	color: #fff;
-}
 .mainContentWrapper {
 	margin: 0 3.5%;
 	width: 93%;
 	clear: both;
 }
-.topContentWrapper, .bottomContentWrapper {
-	padding-bottom: 30px;
-	overflow: hidden;
-}
-.link {
-	font-size: 16px;
-}
 .topContentLeft {
 	width: 58%;
 	float: left;
-}
-.topContentRight, .bottomContentRight {
-	position: relative;
-	text-align: center;
-}
-.topContentRight {
-	width: 38%;
-	float: right;
-}
-.topContentRight .countedownWrapper img {
-	box-shadow: -2px 4px 5px #3C271D;
-	border-radius: 9px;
-}
-.countdown {
-	position: absolute;
-	top: 21%;
-	left: 18%;
-	z-index: 1;
-}
-.countdown>span {
-	color: #49210B;
-	font-size: 26px;
-	line-height: 30px;
-}
-.countdown p {
-	text-transform: uppercase;
-	color: #14204A;
-	font-size: 70px;
-	margin: 0px 0;
-	line-height: 1em;
-}
-.mainContentWrapper h2 {
-	clear: both;
-}
-.bottomContentLeft {
-	width: 29%;
-	float: left;
-}
-.bottomContentLeft ul, .bottomContentCenter ul {
-	list-style: none outside;
-	padding: 10px 0;
-	margin: 0;
-	clear: both;
-}
-.itemTitle {
-	font-size: 16px;
-	font-weight: bold;
-	font-family: Oswald,sans-serif;
-	text-decoration: none;
-}
-.bottomContentLeft ul li, .bottomContentCenter ul li {
-	padding: 3px 0 9px;
-	margin: 0;
-}
-.bottomContentLeft ul li a, .bottomContentCenter ul li a {
-	display: block;
-}
-.bottomContentCenter {
-	width: 27%;
-	float: left;
-	margin: 0 0 0 2%;
-}
-
-.bottomContentCenter a img, .bottomContentLeft a img {
-	float: left;
-	padding: 6% 4% 0 0%;
-	max-width: 30%;
-}
-.bottomContentRight {
-	max-width: 334px;
-}
-.bottomContentRight .miniSlideshowWrapper {
-	padding-top: 1px;
-	box-shadow: -2px 4px 5px #3C271D;
-	background: url(../images/headerbackground.jpg) repeat left top;
-	border-radius: 9px;
-	margin-top: 25px;
-	position: relative;
-	padding-bottom: 17px;
-}
-.javaSlideshow {
-	background: #FEF8E0 no-repeat center center;
-	box-shadow: 3px 3px 5px #313140;
-	margin: 5% 9% 0;
-	padding: 2% 3%;
-	width: 76%;
-}
-.slideCaption {
-	line-height: 1.2em;
-	padding-top: 5px;
-	color: #49210B;
-	font-family: Oswald,sans-serif;
-}
-.slideshowNeedle {
-	position: absolute;
-	width: 32px;
-	height: 38px;
-	left: 50%;
-	top: 0;
-	margin: 15px 0 0 -16px;
-	z-index: 1;
-	background: url(../images/javaSlideshowNeedle.png) no-repeat center left;
-}
-.miniSlideButtonWrapper ol {
-	margin: 0 auto;
-	width: 70%;
-	height: 24px;
-	padding: 15px 0 0;
-	position:relative;
-	bottom:0px;
-}
-.bottomContentRight .button, .bottomContentRight .activeButton {
-	display: inline-block;
-	width: 18px;
-	height: 17.5px;
-}
-.bottomContentRight .button {
-	background: url(../images/JavaslideshowButtonActive.png) no-repeat center top;
-}
-.bottomContentRight .activeButton, .bottomContentRight .button:hover {
-	background: url(../images/JavaslideshowButtonActive.png) no-repeat center bottom;
 }
 .ball {
 	height: 143px;
@@ -1927,16 +1762,11 @@ a.rss {
 #boots {
 	left: 18%;
 }
-.lefttopHeader, .rightHeaderContent, .bottomContentRight {
-	background-size: 100% 100%;
-}
 .lefttopHeader {
 	width: 18%;
 	left: 1%;
 }
-.countdown {
-	left: 13%;
-}
+
 #buttonWrapper {
 	height: 20px;
 }
@@ -1948,15 +1778,6 @@ a.rss {
 .mainMenu {
 	font-size: 20px;
 	padding: 7px 0;
-}
-.countdown {
-	left: 18%;
-}
-.countdown > p {
-	font-size: 58px;
-}
-.countdown > span {
-	font-size: 22px;
 }
 #buttonWrapper {
 	padding: 10px 0 0;
@@ -1980,15 +1801,6 @@ h3 {
 .righttopHeader {
 	font-size: 16px;
 	top: 5%;
-}
-.countdown {
-	top: 13%;
-}
-.countdown > p {
-	font-size: 48px;
-}
-.countdown > span {
-	font-size: 20px;
 }
 .footerRight .accredited {
 	padding-top: 4px;
@@ -2054,38 +1866,6 @@ h3 {
 }
 .mainMenu {
 	padding: 2px 0;
-}
-.bottomContentRight {
-	width: 60%;
-}
-.topContentLeft, .topContentRight, .bottomContentRight {
-	float: none;
-	width: 95%;
-}
-.bottomContentLeft, .bottomContentCenter {
-	width: 48%;
-	padding-bottom: 25px;
-}
-.bottomContentCenter {
-	float: right;
-}
-.topContentRight {
-	margin: 25px auto;
-}
-.bottomContentRight {
-	float: none;
-	margin: 0 auto;
-	clear: both;
-}
-.countdown {
-	top: 21%;
-	left: 31%;
-}
-.countdown>span {
-	font-size: 26px;
-}
-.countdown>p {
-	font-size: 70px;
 }
 .footerRight img {
 	width: 26%;
@@ -2214,9 +1994,6 @@ h3 {
 .navBanner {
 	margin-top: 0px;
 }
-.countdown {
-	left: 26%;
-}
 .ball {
 	height: 110px;
 }
@@ -2332,9 +2109,6 @@ h3 {
 }
 @media only screen and (max-width: 490px) {
 
-.countdown {
-	left: 22%;
-}
 .footerRight form {
     float: none;
     text-align: right;
@@ -2349,9 +2123,7 @@ h3 {
 
 }
 @media only screen and (max-width: 430px) {
-.homeRightColumn {
-	
-}
+
 .lefttopHeader {
     float: right;
     left: 0;
@@ -2380,20 +2152,6 @@ h3 {
 .mainContentWrapper {
 	margin: 0 6%;
 	width: 88%;
-}
-.bottomContentLeft, .bottomContentCenter {
-	float: none;
-	width: 100%;
-	padding-bottom: 25px;
-}
-.bottomContentCenter a img, .bottomContentLeft a img {
-	padding: 0;
-	margin-right: 3%;
-	position: relative;
-	top: -4px;
-}
-.countdown {
-	left: 14%;
 }
 .slideshowNavWrap ul li#thirdButton, .slideshowNavWrap ul li {
     margin-bottom: 4px;
@@ -2461,16 +2219,6 @@ h1, h2 {
 }
 .mainContentWrapper {
 	padding: 0;
-}
-.countdown {
-	left: 10%;
-	top: 14%;
-}
-.countdown > p {
-	font-size: 58px;
-}
-.countdown > span {
-	font-size: 22px;
 }
 .slideshowNavWrap ul li a {
 	font-size: 16px;
