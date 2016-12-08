@@ -469,47 +469,6 @@ button {
 	position: relative;
 	height: 255px;
 }
-
-.imageBoxWrapper {
-	width: 56%;
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	right: 0;
-	top: -20%;
-	list-style: none outside;
-	overflow: hidden;
-}
-.imageBoxWrapper span {
-	font-size: 19px;
-	line-height: 1.4em;
-	display: block;
-	margin: 25px auto 0;
-}
-.imageBoxWrapper a {
-	display: block;
-	text-decoration: none;
-}
-.imageBoxleft, .imageBoxcenter, .imageBoxright {
-	width: 38%;
-	text-align: center;
-	position: relative;
-}
-.imageBoxleft {
-	float: left;
-	margin-top: 25px;
-}
-.imageBoxright {
-	float: right;
-	margin-top: 35px;
-}
-.imageBoxcenter {
-	position: absolute;
-}
-.imageBoxleft span, .imageBoxright span {
-	color: #B20000;
-	width: 66%;
-}
 #campDay, #interactiveMap, #photoGallery, #leftImgArrow, #centerImgArrow, #rightImgArrow {
 	position: absolute;
 	z-index: 1;
@@ -1957,9 +1916,6 @@ a.rss {
 	width: 18%;
 	left: 1%;
 }
-.imageBoxleft span, .imageBoxright span {
-	width: 65%;
-}
 .countdown {
 	left: 13%;
 }
@@ -1974,9 +1930,6 @@ a.rss {
 .mainMenu {
 	font-size: 20px;
 	padding: 7px 0;
-}
-.imageBoxleft span, .imageBoxcenter span, .imageBoxright span {
-	font-size: 18px;
 }
 .countdown {
 	left: 18%;
@@ -2009,14 +1962,6 @@ h3 {
 .righttopHeader {
 	font-size: 16px;
 	top: 5%;
-}
-.imageBoxleft span {
-	left: 7%;
-	width: 70%;
-}
-.imageBoxright span {
-	width: 70%;
-	right: 10%;
 }
 .countdown {
 	top: 13%;
@@ -2095,20 +2040,8 @@ h3 {
 .mainMenu {
 	padding: 2px 0;
 }
-.imageBoxWrapper {
-	position: relative;
-}
 .bottomContentRight {
 	width: 60%;
-}
-.imageBoxWrapper {
-	top: 0;
-	left: 0;
-	width: 82%;
-	margin: 25px auto;
-}
-.imageBoxleft span, .imageBoxcenter span, .imageBoxright span {
-	font-size: 22px;
 }
 .topContentLeft, .topContentRight, .bottomContentRight {
 	float: none;
@@ -2204,18 +2137,11 @@ h3 {
 }
 }
 @media only screen and (max-width: 640px) {
-#boots {
-	top: 25%;
-}
-/* .rightHeaderContent span, .rightHeader p {
-	font-size: 20px;
-} */
-.imageBoxleft span, .imageBoxcenter span, .imageBoxright span {
-	font-size: 20px;
-	width: 78%;
+	#boots {
+		top: 25%;
+	}
 }
 
-}
 @media only screen and (max-width: 599px) {
 .header {
 	min-height: 260px;
@@ -2272,9 +2198,6 @@ h3 {
 }
 .navBanner {
 	margin-top: 0px;
-}
-.imageBoxWrapper {
-	width: 100%;
 }
 .countdown {
 	left: 26%;
@@ -2438,22 +2361,6 @@ h3 {
     top: 0;
     width: 100%;
 	display: block; 
-}
-.imageBoxleft span, .imageBoxcenter span, .imageBoxright span {
-	font-size: 18px;
-}
-.imageBoxleft span, .imageBoxright span {
-	width: 90%;
-}
-.imageBoxcenter span {
-	width: 90%;
-	right: 4%;
-}
-.imageBoxleft span {
-	left: 0;
-}
-.imageBoxright span {
-	right: 0;
 }
 .mainContentWrapper {
 	margin: 0 6%;

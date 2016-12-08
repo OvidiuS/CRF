@@ -25,47 +25,6 @@
 					</div>
 					<!--end slideshowWrapper-->
 					
-					<div class="boxWrapper">
-						
-						<ul class="imageBoxWrapper">
-							<li class="imageBoxleft">
-								<a href="<?= $pages->get(1307)->url ?>">
-									<img src="<?php echo $config->urls->templates?>images/imageBoxleft.png" alt=" "/>
-									<img  id="campDay" src="<?php echo $config->urls->templates?>images/campDay.png" alt=" "/>
-									<img  id="leftImgArrow" src="<?php echo $config->urls->templates?>images/leftImgArrow.png" alt=" "/>
-									<span>Camper Growth &amp; Development</span>
-								</a>
-							</li>
-										
-							<!--end imageBoxleft-->
-							
-							<li class="imageBoxcenter">
-								<a href="<?= $pages->get(1320)->url ?>">
-									<img   src="<?php echo $config->urls->templates?>images/imageBoxcenter.png" alt=" "/>
-									<img  id="interactiveMap" src="<?php echo $config->urls->templates?>images/neverDoneBefore.png" alt=" "/>
-									<img id="centerImgArrow" src="<?php echo $config->urls->templates?>images/centerImgArrow.png" alt=" "/>
-									<span>I've Never Done That Before</span>
-								</a>
-							</li>
-							
-							<!--end imageBoxcenter-->
-							
-							<li class="imageBoxright">
-								<a href="/fullscreen-gallery/" target="_blank">
-									<img  src="<?php echo $config->urls->templates?>images/imageBoxright.png" alt=" "/>
-									<img  id="photoGallery" src="<?php echo $config->urls->templates?>images/photoGalery.png" alt=" "/>
-									<img  id="rightImgArrow" src="<?php echo $config->urls->templates?>images/rightImgArrow.png" alt=" "/>
-									<span>View our Photo Gallery</span>
-								</a>
-							</li>
-							
-							<!--end imageBoxright-->
-							
-						</ul>
-						<!--end imageBoxWrapper--> 
-						
-					</div>
-					<!--end boxWrapper-->
 					
 					<div class="mainContentWrapper">
 						<div class="topContentWrapper">
