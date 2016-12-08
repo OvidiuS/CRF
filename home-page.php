@@ -14,9 +14,8 @@
 					
 					
 					<div class="mainContentWrapper">
+
 						<div class="topContentWrapper">
-						
-							
 							<div class="topContentLeft"><h1><?=$page->get("headline|title");?></h1>
 								<!-- START TEXT MODULE -->
 								<?php echo $page->homepage_rich_text ?>
@@ -24,32 +23,6 @@
 								<!-- END TEXT MODULE -->
 							</div>
 							<!--end topContentLeft-->
-							
-							
-							
-							<div class="topContentRight"> 
-							<div class="homeRightColumn">
-								<?=$page->home_right_column ?>
-							</div>
-							<div class="countedownWrapper" style="position: relative;">
-								<!-- START COUNTDOWN MODULE -->
-								<img src="<?php echo $config->urls->templates?>images/Countdown.png" alt="countdown"/>
-								<div class="countdown">
-									<p>
-										<?php
-											$calculation = (($page->countdown_date - time(void))/3600);
-											$hours = (int)$calculation;
-											$days  = (int)($hours/24);
-											if ($days >= 0) { echo $days ; }else{echo "0";}
-										?>
-									</p>
-									<span>Days<br>
-									to Camp Opening</span> </div>
-									<!-- END COUNTDOWN MODULE  -->
-								</div>
-							</div>
-							<!--end topContentRight-->
-							
 						</div>
 						<!--end topContentWrapper-->
 						
@@ -81,7 +54,6 @@
 										}
 									?>
 								</ul>
-								
 								<!-- END NEWS MODULE -->
 							</div>
 							<!--end bottomContentLeft-->
@@ -129,39 +101,8 @@
 							</div>
 							<!--end bottomCenterContent-->
 							<div class="topContentRight">
-							<div class="bottomContentRight">
-								<h3>Events Showcase</h3>
-								<div class="miniSlideshowWrapper">
-								<!-- START MINI SLIDESHOW -->
-								<div  class="slideshowNeedle"></div>
-								<!--<img src="images/javaslideshowImage.jpg" alt="img"/>-->
-								<div class="javaSlideshow">
-									<div class="miniSlideshow flexslider">
-        								<ul  class="slides">
-        						
-        									<?php         
-    											if (count($page->homepage_mini_slideshow)) {         
-    											  foreach($page->homepage_mini_slideshow as $image): ?>             										
-    										<li>
-    											<img class="photo" src="<?= $image->getCrop('mini-slideshow-crop')->url ?>" alt="<?=$image->description?>" />
-													<div class="slideCaption"><?=$image->description?></div>
-											</li>
-												   <?php endforeach; 
-    											}else{
-    												echo '<li><img class="photo" src="http://placehold.it/261x189.gif" alt="placeholder" /></li>';
-    											}     
-    										?> 
-										</ul>
-    								</div>
-    								<!-- end slideshow flexslider -->
-								</div>
-								
-
-								<div class="miniSlideButtonWrapper">
-									
-								</div>
-								<!-- END MINI SLIDESHOW -->
-							</div>		</div> </div>
+							
+							</div>
 							<!--end bottomContentRight--> 
 						</div>
 						<!--end bottomContentWrapper-->
