@@ -47,7 +47,7 @@ header, footer, nav {
 	display: block;
 }
 /* fonts */
-.mainMenu, #leftMenu, .boxWrapper, .boxWrapperInner, .link, #footerMenu {
+.mainMenu, #leftMenu, .boxWrapperInner, .link, #footerMenu {
 	font-family: Oswald, sans-serif;
 	font-weight: bold;
 }
@@ -461,13 +461,6 @@ button {
 }
 #rightArrowslideshow:hover {
 	background-position: bottom right;
-}
-/*Box Wrapper,Video Box,Image Box*/
-.boxWrapper {
-	width: 95%;
-	margin: 0 2.5%;
-	position: relative;
-	height: 255px;
 }
 #campDay, #interactiveMap, #photoGallery, #leftImgArrow, #centerImgArrow, #rightImgArrow {
 	position: absolute;
@@ -2033,9 +2026,6 @@ h3 {
 }
 .rightHeader p {
 	margin: 0;
-}
-.boxWrapper {
-	height: auto;
 }
 .mainMenu {
 	padding: 2px 0;
