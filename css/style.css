@@ -356,6 +356,7 @@ button {
 	top: 20%;
 	background: url(../images/oars1.png) no-repeat left top;
 	height: 700px;
+	z-index: 999;
 }
 #oarsText {
 	left: 48%;
