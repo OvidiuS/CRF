@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+
+@font-face {
+    font-family: 'armychalkregular';
+    src: url('armychalk-webfont.eot');
+    src: url('armychalk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('armychalk-webfont.woff') format('woff'),
+         url('armychalk-webfont.ttf') format('truetype'),
+         url('armychalk-webfont.svg#armychalkregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	width: 582px;
+	background-color: rgb(215, 206, 180);
+}
+h1,h2 {
+	line-height: 1.2em;
+    padding: 0;
+    font-family: 'armychalkregular',Oswald,sans-serif;
+    font-weight: normal;
+}
+h1 {
+	font-size: 32px;
+    color: #14204a;
+    margin-top: 0;
+}
+h2 {
+	font-size: 27px;
+    color: #de2127;
+}
+p {
+	color: #3c271d;
+    font-family: "Archivo Narrow",sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+img {
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,.6);
+    -moz-box-shadow: 0 0 7px rgba(0,0,0,.6);
+    box-shadow: 0 0 7px rgba(0,0,0,0.6);
+}
+img.align_right {
+	float:right;
+    margin: 10px 0 10px 3%;
+    clear:right;
+    max-width: 55%;
+}
+img.align_left {
+	float: left;
+    margin: 10px 0 10px 3%;
+    clear: left;
+    max-width: 55%;
+}
+img.align_center {
+	    margin: 0 auto;
+    display: block;
+}
