@@ -26,15 +26,7 @@
 					<!--end slideshowWrapper-->
 					
 					<div class="boxWrapper">
-						<div class="videoBox">
-							<a href="<?= $pages->get(1)->main_video ?>&autoplay=1&rel=0" class="mainVideo" title="<?= $pages->get(1)->org_name;?> - Presentation Video"> 
-								<img id="videoBackground" src="<?php echo $config->urls->templates?>images/videoBackground.png" alt=" "/>
-								<img  id="movieFilm" src="<?php echo $config->urls->templates?>images/movieFilm.png" alt=" "/>
-								<span>Watch Our Video</span>
-							</a>
-						</div>
 						
-						<!--end videoBox-->
 						<ul class="imageBoxWrapper">
 							<li class="imageBoxleft">
 								<a href="<?= $pages->get(1307)->url ?>">

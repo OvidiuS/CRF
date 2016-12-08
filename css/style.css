@@ -469,33 +469,7 @@ button {
 	position: relative;
 	height: 255px;
 }
-.videoBox, #movieFilm, .videoBox span {
-	position: absolute;
-}
-.videoBox {
-	left: 2.5%;
-	top: -30%;
-	width: 43%;
-	padding-bottom: 22px;
-}
-.videoBox a {
-	color: #212D07;
-	display: block;
-	text-decoration: none;
-}
-#movieFilm {
-	bottom: -8%;
-	left: 5%;
-	width: 42%;
-	z-index: 1;
-}
-.videoBox span {
-	color: #212D07;
-	font-size: 25px;
-	margin: 15px 0 0;
-	bottom: 0;
-	left: 40%;
-}
+
 .imageBoxWrapper {
 	width: 56%;
 	position: absolute;
@@ -570,10 +544,8 @@ button {
 .imageBoxcenter span {
 	width: 76%;
 }
-.videoBox a span{
-	color: #DE2127;
-}
-.videoBox a:hover span, .imageBoxcenter a:hover span, .imageBoxleft a:hover span, .imageBoxright a:hover span {
+
+.imageBoxcenter a:hover span, .imageBoxleft a:hover span, .imageBoxright a:hover span {
 	color: #14204A;
 }
 #centerImgArrow {
@@ -2123,10 +2095,10 @@ h3 {
 .mainMenu {
 	padding: 2px 0;
 }
-.videoBox, .imageBoxWrapper {
+.imageBoxWrapper {
 	position: relative;
 }
-.videoBox, .bottomContentRight {
+.bottomContentRight {
 	width: 60%;
 }
 .imageBoxWrapper {
@@ -2134,10 +2106,6 @@ h3 {
 	left: 0;
 	width: 82%;
 	margin: 25px auto;
-}
-.videoBox {
-	top: 0%;
-	left: 20%;
 }
 .imageBoxleft span, .imageBoxcenter span, .imageBoxright span {
 	font-size: 22px;
@@ -2305,9 +2273,6 @@ h3 {
 .navBanner {
 	margin-top: 0px;
 }
-.videoBox {
-	width: 65%;
-}
 .imageBoxWrapper {
 	width: 100%;
 }
@@ -2429,9 +2394,6 @@ h3 {
 }
 @media only screen and (max-width: 490px) {
 
-.videoBox {
-	width: 70%;
-}
 .countdown {
 	left: 22%;
 }
@@ -2476,15 +2438,6 @@ h3 {
     top: 0;
     width: 100%;
 	display: block; 
-}
-.videoBox  {
-	width: 80%;
-}
-.videoBox {
-	left: 10%;
-}
-.videoBox span {
-	font-size: 20px;
 }
 .imageBoxleft span, .imageBoxcenter span, .imageBoxright span {
 	font-size: 18px;
