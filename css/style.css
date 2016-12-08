@@ -277,6 +277,7 @@ button {
 	display: block;
 	background: url(../images/rightheaderbanner.png) no-repeat center center;
 	padding: 14px 10px 15px;
+	margin: 20px 40px 0 0;
 	background-size: 100% 100%;
 }
 .rightHeaderContent span {
@@ -1861,11 +1862,6 @@ a.rss {
 .freshFromFB li h4 {
 	margin-bottom: 5px;
 }
-/* @media screen and (min-width: 750px) {
-.rightHeaderContent {
-	padding: 11px 30px 20px;
-}
-} */
 @media screen and (max-width: 959px) {
 #leftBanner, #rightBanner {
 	display: none;
