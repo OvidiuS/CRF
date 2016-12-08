@@ -9,7 +9,7 @@
 						<div class="header">
 								<div class="lefttopHeader"> <a href="<?= $pages->get(1059)->url ?>"> Joe's Tales from the Off-Ramp </a> </div>
 								<!--end lefttopHeader--> 
-								<div id="boots"></div> <a class="centertopHeader" href="/"> <img src="<?= $config->urls->templates?>images/FirebirdRoosevelt-Logos.png" alt="Camp Firebird Roosevelt Logo"/></a> 
+								<div id="boots"></div> <a class="centertopHeader" href="/"> <img src="<?= $config->urls->templates?>images/Camp-Roosevelt-Firebird-Logo.png" alt="Camp Roosevelt-Firebird Logo"/></a> 
 								<!--end centertopHeader-->
 
 							<div class="rightHeader"> <a  class="rightHeaderContent" href="https://www.ultracamp.com/clientlogin.aspx?idCamp=426&amp;campCode=CFR" target="_blank"><span>Sign Up Now</span></a>
