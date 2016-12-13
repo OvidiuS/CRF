@@ -9,7 +9,7 @@
 						<div class="header">
 
 							<div class="lefttopHeader">
-								<a href="<?= $pages->get(1059)->url ?>"> Joe's Tales from the Off-Ramp </a>
+								<a href="#">Join Our Email <br>Newsletter</a>
 							</div>
 							<!--end lefttopHeader--> 
 
