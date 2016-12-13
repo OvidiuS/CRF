@@ -30,19 +30,17 @@
 						<div class="org"><?= $pages->get(1)->org_name ?></div>
 							Joe Mendes, Owner/Director: <a class="email" href="mailto:<?= $pages->get(1)->contact_email ?>"><?= $pages->get(1)->contact_email ?></a> <br/>
 							Debbie Collins, Associate Director: <a href="mailto:debbie@camprooseveltfirebird.com">debbie@camprooseveltfirebird.com</a>
+							<br><br>
 							<div class="adr">
-							<div class="street-address"><?= $pages->get(1)->street_address ?></div>
+							<span class="street-address"><?= $pages->get(1)->street_address ?></span>
 							<span class="locality"><?= $pages->get(1)->locality ?></span>, 
 							<span class="region"><?= $pages->get(1)->region_name ?></span>&nbsp;
 							<span class="postal-code"><?= $pages->get(1)->postal_code ?></span>&nbsp;&nbsp;
 							<span class="country-name"><?= $pages->get(1)->country ?></span>
 						</div>
-						
 					</div>
-					<!-- <div class="campAccredited">
-						<img  id="accredited" src="<?php echo $config->urls->templates?>images/accreditedOld.png" alt="accredited"/>
-						<p class="accredited">Accredited member of the American Camp Association</p>
-					</div>  -->
+					<br>
+					<div class="winterAddress">Winter Office: 3095 Lincoln Blvd. Cleveland Heights, OH 44118</div>
 					
 				</div>
 				
