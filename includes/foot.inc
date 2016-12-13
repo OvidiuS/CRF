@@ -1,7 +1,4 @@
-				<div class="ball"></div>
-				</div>
-				<!--end container--> 
-				
+
 			</div>
 			<!--end containerRightWrapper--> 
 		</div>

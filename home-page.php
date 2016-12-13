@@ -12,9 +12,6 @@
 					</div>
 					<!-- /.hpVideoBg -->
 					
-					
-					<div class="mainContentWrapper">
-
 						<div class="topContentWrapper">
 							<div class="topContentLeft"><h1><?=$page->get("headline|title");?></h1>
 								<!-- START TEXT MODULE -->
@@ -25,62 +22,36 @@
 							<!--end topContentLeft-->
 						</div>
 						<!--end topContentWrapper-->
-						
-						<h2 style="margin: 0;">News and Events</h2>
-						<div class="bottomContentWrapper">
+															
+						<div class="hpBottomSection">
 							
-														
-							<div class="bottomContentCenter"> <a href="https://www.facebook.com/pages/Camps-Firebird-Roosevelt/270670676412">
-								<!-- START RSS MODULE -->
-								<img src="<?php echo $config->urls->templates?>images/facebook64.png" alt="facebook"/></a>
-								<h3>Fresh from Facebook</h3>
-								<ul class="freshFromFB">
-								<?php 
+							<h2 class="facebook-feed-heading">Fresh from Facebook</h2>
 
-									$token =  file_get_contents("https://graph.facebook.com/oauth/access_token?client_id=370212483178411&client_secret=71e876eb21f8e72a6497409cdd7b8faa&grant_type=client_credentials");
-									//echo file_get_contents("https://graph.facebook.com/v2.2/29598302267/feed?access_token=1451351111833066|CyPzCYU1NBpvPr-FqMpJJ5PjlCg");
+							<div class="facebook-posts-wrapper">
 
-									$unparsed_json = file_get_contents("https://graph.facebook.com/v2.2/270670676412/feed?".$token);
+								<div class="facebook-post-wrapper">
+									<h4 class="fb-post-title">Camps Roosevelt &amp; Firebird&nbsp;shared&nbsp;Joe Tree Mendes's&nbsp;post.</h4>
+									<h5 class="fb-post-date">October 31 at 6:46pm</h5>
+									<img class="facebook-post-image" src="http://uploads.webflow.com/5829dbd5bb1a1e38054cf463/582a48b159700a67442bc175_fb2.jpg">
+									<p class="fb-post-text">Send me a picture of YOU in a Halloween Costume! I'll share it on the camp page. Just get your parent's permission. We want to see something creative! <br><a href="#" class="fb-post-link">Read more...</a></p>
+								</div>
 
-									$json_array = json_decode($unparsed_json, true);
-									$noOfWordstoShow = 15;
-									$i= 0 ; // initialize counter
+								<div class="facebook-post-wrapper last">
+									<h4 class="fb-post-title">Camps Roosevelt &amp; Firebird&nbsp;shared&nbsp;Joe Tree Mendes's&nbsp;post.</h4>
+									<h5 class="fb-post-date">October 30 at 5:27pm</h5>
+									<img class="facebook-post-image" src="http://uploads.webflow.com/5829dbd5bb1a1e38054cf463/582a48bc58366e31663826b7_fb1.jpg">
+									<p class="fb-post-text">LAST DAY FOR THE EARLY-BIRD DISCOUNT! SIGN UP TODAY!&nbsp;:)<br><a href="#" class="fb-post-link">Read More...</a></p>
+								</div>
 
-									foreach ($json_array['data'] as $item_arr) : 
-										$postBody = $item_arr["message"] == "" ? $item_arr["story"] : $item_arr["message"];
-										?>
-										<li>
-											<h4>
-												<a href="<?= $item_arr['actions'][0]['link']; ?>"><?= date('m/d/Y',strtotime($item_arr["created_time"])); ?></a>
-											</h4>
-											<?php 
-											 if ( str_word_count($postBody) > $noOfWordstoShow) {
-											 	echo extractText($postBody, $noOfWordstoShow, "on");
-											 }else{
-											 	echo $postBody;
-											 }
-											
-											?>
-										</li>
-
-									<?php
-									$i++; if ($i >= 3 ) {	break; } // set number of posts to list
-									endforeach 
-									?>
-
-								</ul>
-								<!-- END RSS MODULE -->
 							</div>
-							<!--end bottomCenterContent-->
-							<div class="topContentRight">
-							
-							</div>
-							<!--end bottomContentRight--> 
 						</div>
-						<!--end bottomContentWrapper-->
+						<!--end hpBottomSection-->
+
 					</div>
 					<!--end mainContentWrapper--> 
-				</div>	<!--end bodyWrapper -->
+				</div>
+				<!--end bodyWrapper -->
+
 <?php include("./includes/foot.inc"); ?>
 </body>
 </html>
