@@ -14,6 +14,7 @@
 #CommentForm {
    display: none;
 }
+
 .footerRight form #mce-error-response, .footerRight form #mce-success-response {
 	text-align: left;
 	font-size: 14px;
@@ -34,12 +35,19 @@
 	background: #ffffcc;
 	color: #000;
 }
-
+.clearfix::before, .clearfix::after {
+	content: " ";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
 html, body {
     padding: 0;
 	margin: 0;
 	color: #3C271D;
-	font-family: "Archivo Narrow", sans-serif;
+	//font-family: "Archivo Narrow", sans-serif;
+	font-family: "Droid Sans", sans-serif;
 	font-size: 16px;
 	background:  url(../images/footerBackground.jpg) center top;
 }
@@ -53,7 +61,6 @@ header, footer, nav {
 }
 h1, h2, h3, h4 {
 	font-family: 'armychalkregular', Oswald, sans-serif;
-	font-weight: normal;
 }
 .lefttopHeader, .lefttopHeader, .righttopHeader, .rightHeader p {
 	/* font-family: Galindo, sans-serif; */
@@ -256,6 +263,7 @@ button {
 	white-space: nowrap;
 	color: #D9C8B5;
 }
+
 .righttopHeader a {
 	color: #fef8e0;
 	padding: 0 10px;
@@ -363,6 +371,7 @@ button {
     top: 71%;
     display: none;
 }
+
 #binoculars {
 	display: none;
 	
@@ -399,9 +408,15 @@ button {
 	z-index: 1;
 	background: url(../images/rightnavBanner.png) no-repeat left top;
 }
-/*Content*/
+/**********************/
 
-/*HOMEPAGE VIDEO BG*/
+/* CONTENT */
+
+/**********************/
+
+/********************/
+/*HOMEPAGE VIDEO BG* /
+/********************/
 .hpVideoBg {
  	padding:0 10px;
  	position:relative;
@@ -429,7 +444,57 @@ button {
 	text-decoration: none;
 }
 
-/*Slideshow*/
+/********************/
+/* HOMEPAGE CONTENT */
+/********************/
+.homepage-content-wrapper {
+	padding: 35px 2%;
+	border-right: 1px solid #3c271d;
+	border-left: 1px solid #3c271d;
+	background-color: #d7ceb4;
+	margin: 0 10px 0 10px;
+}
+.home-main-heading {
+	color: #14204a;
+	font-size: 42px;
+	font-weight: 400;
+	text-align: center;
+}
+.homepage-intro-para {
+	margin-bottom: 51px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 21px;
+	line-height: 140%;
+	text-align: center;
+}
+.home-content-block {
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.home-content-block img {
+	width: 320px;
+	margin-left: 25px;
+	float: right;
+	border: 10px solid #fff;
+	box-shadow: 0 0 6px 0 #3a3a3a;
+}
+.home-content-block img.left {
+	margin-right: 25px;
+	margin-left: 0px;
+	float: left;
+}
+.home-content-block img.right {
+	margin-left: 25px;
+	margin-right: 0px;
+	float: right;
+}
+.home-content-block h2.right, .home-content-block p.right {
+	text-align: right;
+	
+}
+/*************/
+/* Slideshow */
+/*************/
 
 .slideshowWrapper .flex-control-nav {display:none;}
 .headerImageWrapper {
@@ -537,11 +602,10 @@ button {
 	clear: both;
 }
 
-/*///////////////////////*/
-
+/*********************/
 /* HP FACEBOOK FEED*/
+/*********************/
 
-/*////////////////////*/
 
 .hpBottomSection {
 	padding: 22px 2% 130px 2%;
@@ -581,6 +645,9 @@ button {
 	border-radius: 5px;
 	background-color: #fff;
 	box-shadow: 0 0 6px 0 #6f6f6f;
+}
+.facebook-post-wrapper.last {
+	margin-right: 0;
 }
 .fb-post-title {
 	margin-bottom: 0px;

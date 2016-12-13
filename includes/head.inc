@@ -23,7 +23,7 @@
 
     <script src="<?= $config->urls->templates?>js/modernizr-2.6.2.min.js"></script>
     <!--google fonts go here -->
-    <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700italic,700|Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700italic,700|Oswald:400,700,300|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     
     <link rel="apple-touch-icon" sizes="57x57" href="<?= $config->urls->root?>apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="<?= $config->urls->root?>apple-icon-60x60.png">
