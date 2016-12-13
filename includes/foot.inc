@@ -10,21 +10,7 @@
 		<div class="footerWrapper">
 			<div class="footer">
 				<div class="footerLeft">
-					<nav>
-						<ul  id="footerMenu">
-							<?php
-                        		$homepage = $pages->get("/"); 
-								$footerMenuPages = $homepage->footer_menu_pages;
-								$footerMenuPages->prepend($homepage); 
-								
-								foreach($footerMenuPages as $child) {
-									$class = $child === $page->rootParent ? " class='active'" : '';
-									echo "<li$class><a href='{$child->url}'>{$child->title}</a></li>";
-								}
-                        	?>
-						</ul>
-					</nav>
-					
+										
 					<div class="vcard">
 						<div class="tel">Call Now <?= $pages->get(1)->phone_no ?><!-- <br />Vendors: <?= $pages->get(1)->flickr_url ?> --></div>
 						<div class="org"><?= $pages->get(1)->org_name ?></div>
@@ -43,7 +29,6 @@
 					<div class="winterAddress">Winter Office: 3095 Lincoln Blvd. Cleveland Heights, OH 44118</div>
 					
 				</div>
-				
 				<!--end footerLeft-->
 				
 				<div class="footerRight"> 
