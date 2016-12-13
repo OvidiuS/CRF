@@ -5,8 +5,8 @@
 					
 					<div class="hpVideoBg" style="padding:0 10px;position:relative;">
 						<video autoplay="autoplay" loop="loop" style="background-image: url(&quot;https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/5829e46de899c58c39beee22_ucw1-homepage-video-poster-00001.jpg&quot;); width:100%">
-							<source src="https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/5829e46de899c58c39beee22_ucw1-homepage-video-transcode.webm" data-wf-ignore="">
-							<source src="https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/5829e46de899c58c39beee22_ucw1-homepage-video-transcode.mp4" data-wf-ignore="">
+							<source src="https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/584fb020c49a13fd49b690a5_Camp-Roosevelt-Firebird-Loop-transcode.webm" data-wf-ignore="">
+							<source src="https://daks2k3a4ib2z.cloudfront.net/5829dbd5bb1a1e38054cf463/584fb020c49a13fd49b690a5_Camp-Roosevelt-Firebird-Loop-transcode.mp4" data-wf-ignore="">
 						</video>
 						<a href="<?= $pages->get(1)->main_video ?>&autoplay=1&rel=0" class="fullVideoButton mainVideo">See Full Video</a>
 					</div>
