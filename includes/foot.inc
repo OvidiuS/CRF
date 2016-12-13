@@ -51,13 +51,15 @@
 				<div class="footerRight"> 
 					<? include("./includes/newsletter_form.inc"); ?>
 					<div class="socialMedia">
-						<a class="twitter" href="https://twitter.com/camp_firebird">
+						<!-- <a class="twitter" href="https://twitter.com/camp_firebird">
 							<img src="<?php echo $config->urls->templates?>images/twitter_57.png" alt="twitter"/>
 						</a>
 						<a href="http://www.youtube.com/user/FirebirdRoosevelt">
 							<img src="<?php echo $config->urls->templates?>images/youtube_57.png" alt="youtube"/>
-						</a>
-						<a href="https://www.facebook.com/pages/Camps-Firebird-Roosevelt/270670676412"><img src="<?php echo $config->urls->templates?>images/facebook_57.png" alt="facebook"/></a> 
+						</a> -->
+						<a href="https://www.facebook.com/pages/Camps-Firebird-Roosevelt/270670676412">
+							<img src="<?php echo $config->urls->templates?>images/facebook_57.png" alt="facebook"/>
+						</a> 
 						
 					</div><p style="clear: both;">Copyright ©<?= $copyYears = (date("Y")>2013)? "2013-".date("Y") : date("Y")?> <?= $pages->get(1)->org_name; ?>.<br/><a href="http://www.dvscampwebsites.com">Camp website by DVS Camp Websites</a></p>
 				</div>
