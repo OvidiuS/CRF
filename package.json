@@ -1,0 +1,29 @@
+{
+  "name": "crf-pw",
+  "version": "1.0.0",
+  "description": "PROCESSWIRE TEMPLATE FILES\r ==========================",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-util": "^3.0.7"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OvidiuS/CRF.git"
+  },
+  "author": "Ovi Savescu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OvidiuS/CRF/issues"
+  },
+  "homepage": "https://github.com/OvidiuS/CRF#readme"
+}
