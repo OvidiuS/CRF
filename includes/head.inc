@@ -17,7 +17,7 @@
 
 
     <!-- <link rel="stylesheet" href="<?php echo AIOM::CSS(array('css/style.css', 'css/flexslider.css', 'css/jquery.fancybox.css')); ?>"> -->
-	<link rel="stylesheet" href="/site/templates/css/style.css">
+	<link rel="stylesheet" href="/site/templates/css/main.css">
 	<link rel="stylesheet" href="/site/templates/css/flexslider.css">
 	<link rel="stylesheet" href="/site/templates/css/jquery.fancybox.css">
 
