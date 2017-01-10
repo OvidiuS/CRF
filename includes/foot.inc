@@ -66,7 +66,7 @@
 	?>
 	
 	<!-- CLOSE all html-elements (+wrapper) before this line -->
-       <script src="<?php echo AIOM::JS(array('js/jquery.min.js', 'js/plugins.js', 'js/jquery.flexslider-min.js', 'js/jquery.fancybox.pack.js', 'js/jquery.fancybox-media.js', 'js/scripts.js')); ?>"></script>
+       <script src="<?php echo AIOM::JS(array('js/jquery.min.js', 'js/plugins.js', 'js/plugins/jquery.smartmenus.min.js', 'js/jquery.flexslider-min.js', 'js/jquery.fancybox.pack.js', 'js/jquery.fancybox-media.js', 'js/scripts.js')); ?>"></script>
         
         <!-- Google Code for alidm20.com -->
 		<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->

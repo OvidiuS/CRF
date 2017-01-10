@@ -39,22 +39,28 @@
 							<div class="navBanner">
 								
 								<nav>
-                        			<ul class="mainMenu">
-										<?php
+                        			<?php
 											
                         					$homepage = $pages->get("/"); 
 											$mainMenuPages = $homepage->main_menu_pages;
 											$mainMenuPages->prepend($homepage); 
+
+											$mainMenu = $modules->get("MarkupSimpleNavigation");
 											
-											foreach($mainMenuPages as $child) {
-												$class="";
-												if($page->rootParent->id == $child->id): 													$class = " class='active'"; 
-												endif;
-												//$class = $child === $page->rootParent ? " class='active'" : '';
-												echo "<li".$class." data-id='{$child->id}' data-id01='{$page->id}'><a href='{$child->url}'><span>{$child->title}</span></a></li>";
+											$mainMenuOptions = array(
+												'levels' => true,
+												'levels_prefix' => 'level-',
+												'max_levels' => 2,
+												'outer_tpl' => '<ul id="mainMenu" class="mainMenu sm sm-clean">||</ul>',
+												'item_tpl' => '<a href="{url}"><span>{title}</span></a>',
+												'item_current_tpl' => '<a href="{url}">{title}</a>'
+											);
+											foreach ($mainMenuPages as $item) {
+												echo $item->tile;
 											}
-                        				?>
-									</ul>
+											echo $mainMenu->render($mainMenuOptions,null,$mainMenuPages);
+
+                        			?>
                     			</nav>
 								<div id="leftBanner"></div>
 								<div id="rightBanner"></div>

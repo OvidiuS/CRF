@@ -481,6 +481,10 @@ button {
   text-shadow: 1px 1px 2px #000;
   text-transform: uppercase;
 
+  ul {
+    text-shadow: none;
+  }
+
   li {
     display: inline;
     line-height: 2em;
@@ -493,7 +497,6 @@ button {
       border-radius: 4px;
       color: #D7CDB3;
       line-height: 1.1em;
-      padding: 0 1%;
       text-decoration: none;
 
       span {

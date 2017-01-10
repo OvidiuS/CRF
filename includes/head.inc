@@ -20,7 +20,9 @@
 	<link rel="stylesheet" href="/site/templates/css/main.css">
 	<link rel="stylesheet" href="/site/templates/css/flexslider.css">
 	<link rel="stylesheet" href="/site/templates/css/jquery.fancybox.css">
-
+	<link rel="stylesheet" href="/site/templates/css/sm-core-css.css">
+	<link rel="stylesheet" href="/site/templates/css/sm-clean.css">
+	
     <script src="<?= $config->urls->templates?>js/modernizr-2.6.2.min.js"></script>
     <!--google fonts go here -->
     <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700italic,700|Oswald:400,700,300|Droid+Sans:400,700' rel='stylesheet' type='text/css'>

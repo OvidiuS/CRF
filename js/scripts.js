@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+$(function() {
+  $('#mainMenu').smartmenus();
+});
+
 // homepage main slider.
 $('.slideshowWrapper .slideshow').flexslider({
     animation: "slide",
