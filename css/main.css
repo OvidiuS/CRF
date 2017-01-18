@@ -1746,6 +1746,8 @@ a#prev2:focus, a#next2:focus {
     padding-top: 4px; } }
 
 @media only screen and (max-width: 780px) {
+  .home-content-block img {
+    width: 50%; }
   .righttopHeader {
     font-size: 14px; }
   .rightHeader {
@@ -1819,7 +1821,9 @@ a#prev2:focus, a#next2:focus {
       background: url("../images/dropdownArrow.png") no-repeat left bottom; }
   .menuBgLeft {
     margin-left: 0; }
-  .imageBoxleftInner, .imageBoxcenterInner, .imageBoxrightInner {
+  .imageBoxleftInner,
+  .imageBoxcenterInner,
+  .imageBoxrightInner {
     display: inline-block; }
   .videoBoxInner {
     margin: 0 auto;
@@ -1889,6 +1893,13 @@ a#prev2:focus, a#next2:focus {
     margin-top: 0; } }
 
 @media only screen and (max-width: 580px) {
+  .facebook-posts-wrapper {
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+  .facebook-post-wrapper {
+    margin-right: 0; }
+    .facebook-post-wrapper .facebook-post-image {
+      width: 100%; }
   .tdTopWrapper ul.genderSelector {
     clear: both;
     display: block !important;
@@ -1991,6 +2002,13 @@ a#prev2:focus, a#next2:focus {
     width: 240px; } }
 
 @media only screen and (max-width: 430px) {
+  .home-content-block img {
+    float: none;
+    width: 95%;
+    margin: 0 auto; }
+    .home-content-block img.left, .home-content-block img.right {
+      float: none;
+      margin: 0 auto; }
   .lefttopHeader {
     float: right;
     left: 0;
