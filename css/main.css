@@ -66,7 +66,7 @@
 
 html,
 body {
-  background: url("../images/footerBackground.jpg") center top;
+  background: url("/site/templates/images/footerBackground.jpg") center top;
   color: #3c271d;
   font-family: 'Droid Sans', sans-serif;
   font-size: 16px;
@@ -212,6 +212,7 @@ button {
 .bodyWrapper {
   background: #90dcfe url("../images/page-background.jpg") no-repeat 0 -200px;
   background-attachment: fixed;
+  background-size: cover;
   overflow: hidden;
   position: relative; }
 
@@ -1682,6 +1683,33 @@ a#prev2:focus, a#next2:focus {
 .freshFromFB li h4 {
   margin-bottom: 5px; }
 
+figcaption {
+  color: gray;
+  margin-top: 10px; }
+
+.img_left {
+  float: left;
+  margin: 10px 25px 10px 0;
+  text-align: center;
+  width: 40%; }
+
+.img_right {
+  float: right;
+  margin: 10px 0 10px 25px;
+  text-align: center;
+  width: 40%; }
+
+.img_centered {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center; }
+
+.img_stretched {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center; }
+
 @media screen and (max-width: 959px) {
   #leftBanner,
   #rightBanner,
@@ -2047,7 +2075,17 @@ a#prev2:focus, a#next2:focus {
     float: none;
     margin: 0 auto;
     text-align: right;
-    width: 240px; } }
+    width: 240px; }
+  .img_left {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: auto; }
+  .img_right {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: auto; } }
 
 @media only screen and (max-width: 430px) {
   .home-content-block {

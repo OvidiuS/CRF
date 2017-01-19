@@ -80,6 +80,8 @@ include($site->config->templates."includes/head.inc"); ?>
 		
 		</div>
 		<!--end contentTwoCollumns-->
+	</div>
+	<!-- .bodyWrapper -->
 <?php include($site->config->templates."includes/foot.inc"); ?>
 </body>
 </html>

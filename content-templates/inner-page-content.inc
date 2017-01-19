@@ -4,12 +4,5 @@
 						// the rest is handled by the layout template
 					 ?>
 					<h1><?= $page->get("headline|title");?></h1>
-					<?= $page->body; ?>
+					<?= $page->render('main_content_matrix'); ?>
 					<?= $page->special_content; ?>
-					<?php 
-						foreach($page->faqs as $faq) {
-    						echo "<h3 class='faq_question'><a href='#'>{$faq->faq_question}</a></h2>";    
-    						echo "<div class='faq_answer'>{$faq->faq_answer}</div>";
-    					} 
-					?>
-					<?= $page->faq_answer ?>
