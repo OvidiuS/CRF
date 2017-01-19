@@ -97,7 +97,9 @@
   border-left: 40px solid transparent;
 }
 
-@media (min-width: 768px) {
+
+
+@media (min-width: 769px) {
   /* Switch to desktop layout
   -----------------------------------------------
      These transform the menu tree from
@@ -140,7 +142,7 @@
   .sm-clean {
   }
   .sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
-    padding: 12px 12px;
+    padding: 12px 18px;
     color: #555555;
   }
   .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
@@ -153,12 +155,12 @@
     color: #bbbbbb;
   }
   .sm-clean a.has-submenu {
-    padding-right: 24px;
+    padding-right: 18px;
   }
   .sm-clean a span.sub-arrow {
     top: 50%;
     margin-top: -2px;
-    right: 12px;
+    right: 4px;
     width: 0;
     height: 0;
     border-width: 4px;
@@ -343,5 +345,12 @@
   }
   .sm-clean.sm-vertical ul a.disabled {
     background: white;
+  }
+}
+
+@media (max-width: 958px) {
+
+  .sm-clean {
+    margin: 11px 0 11px 0;
   }
 }

@@ -85,7 +85,7 @@ nav {
 .link,
 #footerMenu {
   font-family: Oswald, sans-serif;
-  font-weight: bold; }
+  font-weight: normal; }
 
 h1,
 h2,
@@ -278,7 +278,7 @@ button {
   font-size: 17px;
   left: 12%;
   min-width: 150px;
-  top: 21%;
+  top: 49px;
   width: 15%; }
   .lefttopHeader a {
     color: #49210b;
@@ -328,7 +328,7 @@ button {
 .rightHeader {
   max-width: 48%;
   right: 7%;
-  top: 24%;
+  top: 55px;
   z-index: 1; }
   .rightHeader p {
     color: #C7B15F;
@@ -365,7 +365,7 @@ button {
   position: relative; }
 
 .mainMenu {
-  font-size: 20px;
+  font-size: 18px;
   list-style: none outside;
   margin: 22px 0 0;
   padding: 0;
@@ -388,8 +388,7 @@ button {
       line-height: 1.1em;
       text-decoration: none; }
       .mainMenu li a span {
-        display: inline-block;
-        white-space: nowrap; }
+        display: inline-block; }
       .mainMenu li a:hover {
         background-color: DarkRed;
         color: #eaeaea; }
@@ -1739,7 +1738,7 @@ a#prev2:focus, a#next2:focus {
   #boots {
     left: 18%; }
   .lefttopHeader {
-    left: 1%;
+    left: 4%;
     width: 18%; }
   #buttonWrapper {
     height: 20px; } }
@@ -1766,7 +1765,7 @@ a#prev2:focus, a#next2:focus {
     left: 18%; }
   .righttopHeader {
     font-size: 16px;
-    top: 5%; }
+    top: 10px; }
   .footerRight .accredited {
     margin: 0;
     padding-top: 4px; } }
@@ -1814,7 +1813,7 @@ a#prev2:focus, a#next2:focus {
     font-size: 15px;
     width: 45%; }
   .rightHeader {
-    top: 24%; }
+    top: 55px; }
     .rightHeader p {
       margin: 0; }
   .mainMenu {
@@ -1878,7 +1877,7 @@ a#prev2:focus, a#next2:focus {
     float: left;
     left: 0;
     position: relative;
-    top: 0;
+    top: 15px;
     width: 55%; }
   #boots {
     left: 32%;
@@ -1897,7 +1896,7 @@ a#prev2:focus, a#next2:focus {
     left: 0;
     max-width: 44%;
     position: relative;
-    top: 0;
+    top: 20px;
     width: 44%; }
   .righttopHeader {
     clear: both;
@@ -1905,7 +1904,7 @@ a#prev2:focus, a#next2:focus {
     position: static;
     text-align: center;
     top: 0;
-    width: 90%; }
+    float: right; }
   .rightHeaderContent {
     margin: 0 auto;
     max-width: 145px; }
@@ -2014,7 +2013,30 @@ a#prev2:focus, a#next2:focus {
 
 @media only screen and (max-width: 520px) {
   h3 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .lefttopHeader {
+    display: none; }
+  .righttopHeader {
+    float: none;
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 100%; }
+  .rightHeader {
+    clear: both;
+    float: none;
+    left: 0;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%; }
+  .centertopHeader {
+    display: block;
+    float: none;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%; } }
 
 @media only screen and (max-width: 490px) {
   .footerRight form {
@@ -2037,27 +2059,6 @@ a#prev2:focus, a#next2:focus {
       .home-content-block img.left, .home-content-block img.right {
         float: none;
         margin: 0 auto; }
-  .lefttopHeader {
-    float: right;
-    left: 0;
-    position: relative;
-    top: 0;
-    width: 40%; }
-  .rightHeader {
-    clear: both;
-    float: left;
-    left: 0;
-    max-width: 100%;
-    position: relative;
-    top: 0;
-    width: 100%; }
-  .centertopHeader {
-    display: block;
-    float: none;
-    left: 0;
-    position: relative;
-    top: 0;
-    width: 100%; }
   .mainContentWrapper {
     margin: 0 6%;
     width: 88%; }
@@ -2117,8 +2118,6 @@ a#prev2:focus, a#next2:focus {
   .mainMenu {
     font-size: 16px;
     padding: 4px 0; }
-    .mainMenu li a {
-      padding: 0 2.5%; }
   .mainContentWrapper {
     padding: 0; }
   .slideshowNavWrap ul li a {

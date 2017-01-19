@@ -119,7 +119,7 @@ nav {
 .link,
 #footerMenu {
   font-family: Oswald, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 h1,
@@ -356,7 +356,7 @@ button {
   font-size: 17px;
   left: 12%;
   min-width: 150px;
-  top: 21%;
+  top: 49px;
   width: 15%;
 
   a {
@@ -421,7 +421,7 @@ button {
 .rightHeader {
   max-width: 48%;
   right: 7%;
-  top: 24%;
+  top: 55px;
   z-index: 1;
 
   p {
@@ -473,7 +473,7 @@ button {
 }
 
 .mainMenu {
-  font-size: 20px;
+  font-size: 18px;
   list-style: none outside;
   margin: 22px 0 0;
   padding: 0;
@@ -502,7 +502,7 @@ button {
 
       span {
         display: inline-block;
-        white-space: nowrap;
+        
       }
 
       &:hover {
@@ -2336,7 +2336,7 @@ a {
   }
 
   .lefttopHeader {
-    left: 1%;
+    left: 4%;
     width: 18%;
   }
 
@@ -2381,7 +2381,7 @@ a {
 
   .righttopHeader {
     font-size: 16px;
-    top: 5%;
+    top: 10px;
   }
 
   .footerRight .accredited {
@@ -2463,7 +2463,7 @@ a {
   }
 
   .rightHeader {
-    top: 24%;
+    top: 55px;
 
     p {
       margin: 0;
@@ -2573,7 +2573,7 @@ a {
     float: left;
     left: 0;
     position: relative;
-    top: 0;
+    top: 15px;
     width: 55%;
   }
 
@@ -2598,7 +2598,7 @@ a {
     left: 0;
     max-width: 44%;
     position: relative;
-    top: 0;
+    top: 20px;
     width: 44%;
   }
 
@@ -2608,7 +2608,7 @@ a {
     position: static;
     text-align: center;
     top: 0;
-    width: 90%;
+    float:right;
   }
 
   .rightHeaderContent {
@@ -2787,6 +2787,37 @@ a {
   h3 {
     font-size: 20px;
   }
+
+  .lefttopHeader {
+    display:none;
+  }
+
+  .righttopHeader {
+    float: none;
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .rightHeader {
+    clear: both;
+    float: none;
+    left: 0;
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .centertopHeader {
+    display: block;
+    float: none;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 490px) {
@@ -2826,32 +2857,7 @@ a {
     }
   }
 
-  .lefttopHeader {
-    float: right;
-    left: 0;
-    position: relative;
-    top: 0;
-    width: 40%;
-  }
 
-  .rightHeader {
-    clear: both;
-    float: left;
-    left: 0;
-    max-width: 100%;
-    position: relative;
-    top: 0;
-    width: 100%;
-  }
-
-  .centertopHeader {
-    display: block;
-    float: none;
-    left: 0;
-    position: relative;
-    top: 0;
-    width: 100%;
-  }
 
   .mainContentWrapper {
     margin: 0 6%;
@@ -2953,11 +2959,6 @@ a {
   .mainMenu {
     font-size: 16px;
     padding: 4px 0;
-
-    li a {
-      padding: 0 2.5%;
-    }
-
   }
 
   .mainContentWrapper {
