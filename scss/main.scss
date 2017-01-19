@@ -481,7 +481,7 @@ button {
   text-shadow: 1px 1px 2px #000;
   text-transform: uppercase;
   z-index: 8010;
-  
+
   ul {
     text-shadow: none;
   }
@@ -876,6 +876,34 @@ button {
 /*********************/
 /* HP FACEBOOK FEED*/
 /*********************/
+
+.fb-post-link {
+  margin-top: 14px;
+  padding: 6px 12px;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  margin-bottom: 0;
+  overflow: hidden;
+  padding-left: 34px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  text-decoration: none;
+  background: #3b5998 url(/site/templates/images/icons/fb.png) 9px center no-repeat;
+  background-size: 13px;
+  cursor:pointer;
+
+  &:hover {
+    color: #ffffda;
+  }
+
+}
 
 .hpBottomSection {
   background-color: #fff8e7;
