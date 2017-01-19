@@ -2003,13 +2003,15 @@ a#prev2:focus, a#next2:focus {
     width: 240px; } }
 
 @media only screen and (max-width: 430px) {
-  .home-content-block img {
-    float: none;
-    width: 95%;
-    margin: 0 auto; }
-    .home-content-block img.left, .home-content-block img.right {
+  .home-content-block {
+    margin-bottom: 10px; }
+    .home-content-block img {
       float: none;
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 95%; }
+      .home-content-block img.left, .home-content-block img.right {
+        float: none;
+        margin: 0 auto; }
   .lefttopHeader {
     float: right;
     left: 0;
