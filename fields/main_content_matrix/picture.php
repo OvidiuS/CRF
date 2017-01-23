@@ -18,11 +18,11 @@
 		break;
 	default:
 		
-		
+
 		break;
 } ?>
 
 <figure class="<?= $page->image_alignment_matrix->value ?>">
-    <img src='<?= $page->image_matrix->width($imageWidth, $options)->url ?>' alt='<?= $page->image_matrix->description ?>' />
+    <img src='<?= $page->image_matrix->first()->width($imageWidth, $options)->url ?>' alt='<?= $page->image_matrix->first()->description ?>' />
     <figcaption><?= $page->title ?></figcaption>
 </figure>
