@@ -487,7 +487,7 @@ button {
     width: 100%; }
 
 .fullVideoButton {
-  background: url("http://rf.dev/site/templates/images/rightheaderbanner.png") no-repeat center center;
+  background: url("/site/templates/images/rightheaderbanner.png") no-repeat center center;
   color: #49210b;
   font-family: 'armychalkregular', Oswald,sans-serif;
   font-size: 31px;
