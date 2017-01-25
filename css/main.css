@@ -684,6 +684,9 @@ button {
   .fb-post-link:hover {
     color: #ffffda; }
 
+.facebook-post-image {
+  margin-top: 20px; }
+
 .hpBottomSection {
   background-color: #fff8e7;
   border-left: 1px solid #3c271d;
