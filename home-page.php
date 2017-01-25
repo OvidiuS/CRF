@@ -82,10 +82,17 @@
 
 								<div class="facebook-post-wrapper">
 									<h4 class="fb-post-title"><?= date("M d Y", strtotime($event['created_time'])); ?></h4>
-									<!-- <h5 class="fb-post-date">October 30 at 5:27pm</h5> -->
-									<!-- <img class="facebook-post-image" src="http://uploads.webflow.com/5829dbd5bb1a1e38054cf463/582a48bc58366e31663826b7_fb1.jpg"> -->
+									<?php 
+									$post_id = substr($event['id'], 13);
+									$fb_post_image_json = file_get_contents('https://graph.facebook.com/'.$post_id.'?access_token=1590125341012914|oljz2LZ1NBiXuqy0yacc5yBhwHk&fields=source'); 
+									$fb_post_image = json_decode($fb_post_image_json, true);
+									?>
+									<?php if ($fb_post_image['source']): ?>
+										<img class="facebook-post-image" src="<?= 	$fb_post_image['source'] ?>">
+									<?php endif ?>
+									
 									<p class="fb-post-text"><?= $string = preg_replace('/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/', '<a href="$0" target="_blank" title="$0">Click Here for the Link</a>', $event['message']) ?>
-									<br><a href="http://www.facebook.com/270670676412/posts/<?= substr($event['id'], 13)?>" class="fb-post-link">See on Facebook</a></p>
+									<br><a href="http://www.facebook.com/270670676412/posts/<?= $post_id ?>" class="fb-post-link" target="_blank">See on Facebook</a></p>
 								</div>
 
 								<?php endforeach ?>
