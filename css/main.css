@@ -213,7 +213,10 @@ button {
   background: #90dcfe url("../images/page-background.jpg") no-repeat 0 -190px;
   background-attachment: fixed;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-color: #999; }
 
 .containerLeftWrapper,
 .containerRightWrapper,
@@ -235,12 +238,12 @@ button {
   width: 100%; }
 
 .topHeaderWrapper {
-  background: url("../images/topbanner.png") repeat-x center top;
+  background: url("../images/topbanner2.png") repeat-x center top;
   height: 43px;
   top: 0; }
 
 .topBoard {
-  background: url("../images/topbanner.png") repeat-x center top;
+  background: url("../images/topbanner2.png") repeat-x center top;
   height: 43px;
   position: absolute;
   top: 0;
@@ -254,7 +257,7 @@ button {
 
 /*Header*/
 .header {
-  background: url("../images/headerbackground.jpg") center top;
+  background: url("../images/warm-wood.jpg") center top;
   margin: 0 1%;
   min-height: 230px;
   padding-top: 1px;
@@ -805,7 +808,7 @@ button {
   z-index: 1; }
 
 .menuBgRight {
-  background: url("../images/sideMenuBg.jpg") repeat left top;
+  background: url("../images/warm-wood.jpg") repeat left top;
   margin-right: 0;
   padding: 10px 3% 20px; }
 
