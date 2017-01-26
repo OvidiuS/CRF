@@ -1,8 +1,8 @@
 <?php 
-include($site->config->templates."includes/head.inc"); ?>
+include($config->paths->templates."includes/head.inc"); ?>
 
 <body>
-<?php include($site->config->templates."includes/header.inc"); ?>
+<?php include($config->paths->templates."includes/header.inc"); ?>
 		<div class="contentTwoCollumns">
 			<?php if($page->rootParent->numChildren): ?>
 			<div class="menuBgLeft contentLeft">
@@ -82,6 +82,6 @@ include($site->config->templates."includes/head.inc"); ?>
 		<!--end contentTwoCollumns-->
 	</div>
 	<!-- .bodyWrapper -->
-<?php include($site->config->templates."includes/foot.inc"); ?>
+<?php include($config->paths->templates."includes/foot.inc"); ?>
 </body>
 </html>

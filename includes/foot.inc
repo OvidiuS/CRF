@@ -32,7 +32,7 @@
 				<!--end footerLeft-->
 				
 				<div class="footerRight"> 
-					<? include("./includes/newsletter_form.inc"); ?>
+					<? include($config->paths->templates."includes/newsletter_form.inc"); ?>
 					<div class="socialMedia">
 						<!-- <a class="twitter" href="https://twitter.com/camp_firebird">
 							<img src="<?php echo $config->urls->templates?>images/twitter_57.png" alt="twitter"/>

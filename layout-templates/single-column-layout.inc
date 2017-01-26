@@ -1,7 +1,7 @@
-<? include($site->config->templates."includes/head.inc"); ?>
+<? include($config->paths->templates."includes/head.inc"); ?>
 
 <body>
-<? include($site->config->templates."includes/header.inc"); ?>
+<? include($config->paths->templates."includes/header.inc"); ?>
 					
 					<div class="singleColumnWrapper">
 						
@@ -10,6 +10,6 @@
 					</div>
 					<!--end singleColumnWrapper--> 
 					
-<? include($site->config->templates."includes/foot.inc"); ?>
+<? include($config->paths->templates."includes/foot.inc"); ?>
 </body>
 </html>

@@ -1,7 +1,7 @@
-<? include("./includes/head.inc"); ?>
+<? include($config->paths->templates."includes/head.inc"); ?>
 
 <body>
-<? include("./includes/header.inc"); ?>
+<? include($config->paths->templates."includes/header.inc"); ?>
 					
 		<div class="contentTwoCollumns blogContent">
 			<div class="menuBgLeft contentLeft">
@@ -144,6 +144,6 @@
 		</div>
 		<!--end contentTwoCollumns--> 
 				</div>	
-<? include("./includes/foot.inc"); ?>
+<? include($config->paths->templates."includes/foot.inc"); ?>
 </body>
 </html>
