@@ -395,7 +395,7 @@ button {
       .mainMenu li a:hover {
         background-color: DarkRed;
         color: #eaeaea; }
-  .mainMenu .active a {
+  .mainMenu .active > a {
     background-color: DarkRed;
     color: #eaeaea; }
 

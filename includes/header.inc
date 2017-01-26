@@ -51,6 +51,7 @@
 												'levels' => true,
 												'levels_prefix' => 'level-',
 												'max_levels' => 3,
+												'current_class' => 'active',
 												'outer_tpl' => '<ul id="mainMenu" class="mainMenu sm sm-clean">||</ul>',
 												'item_tpl' => '<a href="{url}"><span>{title}</span></a>',
 												'item_current_tpl' => '<a href="{url}">{title}</a>'
