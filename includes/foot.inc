@@ -17,7 +17,7 @@
 							Joe Mendes, Owner/Director: <a class="email" href="mailto:<?= $pages->get(1)->contact_email ?>"><?= $pages->get(1)->contact_email ?></a> <br/>
 							Debbie Collins, Associate Director: <a href="mailto:debbie@camprooseveltfirebird.com">debbie@camprooseveltfirebird.com</a>
 							<br><br>
-							<div class="adr">
+							<div class="adr">Camp Office: 
 							<span class="street-address"><?= $pages->get(1)->street_address ?></span>
 							<span class="locality"><?= $pages->get(1)->locality ?></span>, 
 							<span class="region"><?= $pages->get(1)->region_name ?></span>&nbsp;
@@ -26,7 +26,7 @@
 						</div>
 					</div>
 					<br>
-					<div class="winterAddress">Winter Office: 3095 Lincoln Blvd. Cleveland Heights, OH 44118</div>
+					<div class="winterAddress">Winter Office: 3095 Lincoln Blvd. Cleveland Heights, Ohio 44118</div>
 					
 				</div>
 				<!--end footerLeft-->
