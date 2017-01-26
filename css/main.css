@@ -210,9 +210,8 @@ button {
   font-size: 20px; }
 
 .bodyWrapper {
-  background: #90dcfe url("../images/page-background.jpg") no-repeat 0 -200px;
+  background: #90dcfe url("../images/page-background.jpg") no-repeat 0 -190px;
   background-attachment: fixed;
-  background-size: cover;
   overflow: hidden;
   position: relative; }
 
