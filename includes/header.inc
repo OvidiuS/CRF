@@ -30,11 +30,7 @@
 								<!-- <a href="#" target="_blank">Parent login /</a> --> 
 								<a href="tel:<?= $pages->get(1)->phone_no ?>" target="_blank">Call Now <?= $pages->get(1)->phone_no ?></a><!--  | <a href="<?= $pages->get(1053)->url ?>">Blog</a> -->
 							</div>
-							<!--end righttopHeader--> 
-
-							<div id="oars"><img id="oarsText" src="<?php echo $config->urls->templates?>images/oarsText.png" alt="text"/></div>
-
-							<div id="binoculars"></div> 
+							<!--end righttopHeader-->  
 							
 							<div class="navBanner">
 								

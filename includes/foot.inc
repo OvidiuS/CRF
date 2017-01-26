@@ -44,7 +44,7 @@
 							<img src="<?php echo $config->urls->templates?>images/facebook_57.png" alt="facebook"/>
 						</a> 
 						
-					</div><p style="clear: both;">Copyright ©<?= $copyYears = (date("Y")>2013)? "2013-".date("Y") : date("Y")?> <?= $pages->get(1)->org_name; ?>.<br/><a href="http://www.dvscampwebsites.com">Camp website by DVS Camp Websites</a></p>
+					</div><p style="clear: both;">Copyright ©<?= $copyYears = (date("Y")>2013)? "2013-".date("Y") : date("Y")?> <?= $pages->get(1)->org_name; ?>.<br/><a href="http://www.ovswebsites.com">Website by OVS Websites</a></p>
 				</div>
 				
 				<!--end footerRight--> 

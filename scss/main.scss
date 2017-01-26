@@ -1,14 +1,8 @@
 @charset "utf-8";
 
-/** General Definitions go here**/
-@font-face {
-  font-family: 'armychalkregular';
-  src: url('armychalk-webfont.eot');
-  src: url('armychalk-webfont.eot?#iefix') format("embedded-opentype"), url('armychalk-webfont.woff') format("woff"), url('armychalk-webfont.ttf') format("truetype"), url('armychalk-webfont.svg#armychalkregular') format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 
+$headingFont: 'Fira Sans', sans-serif;
+$menuFont: 'Oswald', sans-serif;
 
 #CommentForm {
   display: none;
@@ -116,9 +110,8 @@ nav {
 .mainMenu,
 #leftMenu,
 .boxWrapperInner,
-.link,
-#footerMenu {
-  font-family: Oswald, sans-serif;
+.link {
+  font-family: $menuFont;
   font-weight: normal;
 }
 
@@ -126,12 +119,12 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'armychalkregular', Oswald, sans-serif;
+  font-family: $headingFont;
 }
 
 .lefttopHeader, .righttopHeader, .rightHeader p {
   /* font-family: Galindo, sans-serif; */
-  font-family: 'armychalkregular', Oswald, sans-serif;
+  font-family: $headingFont;
 }
 
 .rightColumnEditor {
@@ -273,7 +266,7 @@ button {
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
-  font-family: Oswald, sans-serif;
+  font-family: $menuFont;
   font-size: 20px;
 }
 
@@ -405,7 +398,7 @@ button {
   font-size: 14px;
   right: 0;
   text-transform: uppercase;
-  top: 4%;
+  top: 7px;
   white-space: nowrap;
   width: 35%;
 
@@ -452,7 +445,7 @@ button {
   span {
     /* border-bottom: 4px solid #3B271C; */
     color: #49210B;
-    font-family: 'armychalkregular', Oswald, sans-serif;
+    font-family: $headingFont;
     font-size: 22px;
     text-transform: uppercase;
     white-space: nowrap;
@@ -522,35 +515,6 @@ button {
       background-color: DarkRed;
       color: #eaeaea;
     }
-  }
-}
-
-#footerMenu {
-  font-size: 13px;
-  font-weight: normal;
-  letter-spacing: .02em;
-  list-style: none outside;
-  margin-left: 0;
-  padding: 0;
-
-  li {
-    border-right: 1px solid #E5DDC3;
-    display: inline;
-    padding: 0 1%;
-
-    a {
-      color: #e5ddc3;
-      text-decoration: none;
-
-      &:hover {
-        color: #f1b775;
-      }
-    }
-
-    &:first-child {
-      padding: 0 1% 0 0;
-    }
-
   }
 }
 
@@ -643,7 +607,7 @@ button {
 .fullVideoButton {
   background: url('/site/templates/images/rightheaderbanner.png') no-repeat center center;
   color: #49210b;
-  font-family: 'armychalkregular', Oswald,sans-serif;
+  font-family: $headingFont;
   font-size: 31px;
   font-weight: 400;
   height: 55px;
@@ -1006,7 +970,7 @@ button {
 
 .tel {
   color: #E5DDC3;
-  font-family: 'armychalkregular', Oswald, sans-serif;
+  font-family: $headingFont;
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -1095,7 +1059,7 @@ button {
     .sidebarComentTitle {
       color: #d7Cdb3;
       display: block;
-      font-family: Oswald, sans-serif;
+      font-family: $menuFont;
       font-size: 14px;
       font-weight: bold;
       padding: 0;
@@ -1559,7 +1523,7 @@ button {
         box-shadow: inset 1px 2px 3px rgba(0, 0, 0, .6);
         color: #B78E5C;
         display: inline-block;
-        font-family: Oswald,sans-serif;
+        font-family: $menuFont;
         font-size: 20px;
         font-weight: normal;
         letter-spacing: 0;
@@ -1706,7 +1670,7 @@ button {
         box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
         color: #4A2611;
         display: inline-block;
-        font-family: Oswald,sans-serif;
+        font-family: $menuFont;
         font-size: 17px;
         font-weight: normal;
         height: 45px;
@@ -2544,7 +2508,7 @@ figcaption {
 
     span {
       background: url('../images/dropdownArrow.png') no-repeat left -5px;
-      font-family: 'armychalkregular', Oswald, sans-serif;
+      font-family: $headingFont;
       padding-left: 20px;
     }
 
